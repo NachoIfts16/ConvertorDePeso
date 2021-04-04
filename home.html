@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Convertor de Peso</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <h1 class="display-4 text-center mb-4">Weight Converter</h1>
+            <form>
+              <div class="form-group">
+                <input id="gramosInput" type="number" class="form-control form-control-lg" placeholder="Ingrese gramos...">
+              </div>
+            </form>
+            <div id="output">
+              <div class="card bg-primary mb-2">
+                <div class="card-block">
+                  <h4>Libras: </h4>
+                  <div id="lbsOutput"></div>
+                </div>
+              </div>
+      
+              <div class="card bg-success mb-2">
+                <div class="card-block">
+                  <h4>Kilogramos: </h4>
+                  <div id="kgOutput"></div>
+                </div>
+              </div>
+      
+              <div class="card bg-danger mb-2">
+                <div class="card-block">
+                  <h4>Miligramos: </h4>
+                  <div id="mgOutput"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
